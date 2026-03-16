@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Env files
+.env
+backend/.env
+frontend/.env
+
+# Node
+node_modules/
+dist/
+
+# OS / Editor
+.DS_Store
+.vscode/
+
+# Database
+*.db
+chat.db
