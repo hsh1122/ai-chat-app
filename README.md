@@ -141,9 +141,9 @@ Main endpoints:
 
 ## Screenshots
 
-No screenshots are included in the repository right now.
-
-You can add a few UI screenshots here later if needed.
+![Main Chat UI](screenshots/show1.png)
+![delete](screenshots/show2.png)
+![AI Chat Demo](screenshots/func-demo.gif)
 
 ## Future Improvements
 
@@ -158,5 +158,4 @@ You can add a few UI screenshots here later if needed.
 - Chat history is stored in SQLite by default.
 - Assistant responses are rendered as Markdown, but only assistant messages use Markdown rendering in the current UI.
 - Code highlighting is implemented manually and currently covers a few common languages in a basic way.
-- There is no deployment guide in the repository right now.
 - Authentication and multi-user access are not present in the current codebase.
