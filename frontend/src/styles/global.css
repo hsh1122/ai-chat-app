@@ -191,16 +191,25 @@ body,
 }
 
 .session-menu {
-  position: absolute;
-  top: 38px;
-  right: 0;
   min-width: 112px;
   border: 1px solid #cad8ef;
   border-radius: 10px;
   background: #fff;
   box-shadow: 0 10px 22px rgba(32, 63, 112, 0.18);
   padding: 4px;
-  z-index: 5;
+  z-index: 1000;
+}
+
+.session-menu-portal {
+  position: fixed;
+}
+
+.session-menu-top {
+  transform-origin: bottom right;
+}
+
+.session-menu-bottom {
+  transform-origin: top right;
 }
 
 .session-menu-item {
