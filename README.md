@@ -2,6 +2,17 @@
 
 A small full-stack chat app with a React frontend and a FastAPI backend. It supports multiple chat sessions, stores chat history in SQLite, and streams assistant responses from an OpenAI-compatible API.
 
+## Live Demo
+
+🌐 [https://ai-chat-app-drab-phi.vercel.app](https://ai-chat-app-drab-phi.vercel.app) — Fully deployed and ready to use online.
+
+## Project Overview
+
+AI Chat App lets you have real-time conversations with an AI assistant. The app supports streaming responses, chat history, and multiple chat sessions.
+
+- **Frontend:** Deployed on [Vercel](https://vercel.com/)  
+- **Backend:** Deployed on [Railway](https://railway.app/)
+
 ## Features
 
 - Multiple chat sessions with a sidebar for switching between conversations
